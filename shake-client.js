@@ -1,7 +1,7 @@
 import { initializeApp } from "https://gstatic.com";
 import { getDatabase, ref, onValue } from "https://gstatic.com";
 
-// Gekoppeld aan jouw database link
+// Jouw unieke database link ingevuld:
 const firebaseConfig = { databaseURL: "https://firebaseio.com" };
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
